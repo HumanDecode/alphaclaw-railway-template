@@ -11,7 +11,7 @@
     "dev:shell": "docker compose exec openclaw bash"
   },
   "dependencies": {
-    "@chrysb/alphaclaw": "git+https://github.com/HumanDecode/alphaclaw-decode.git#b69b8b0a64315abb67db32576bb4f52eff943073"
+    "@chrysb/alphaclaw": "git+https://github.com/HumanDecode/alphaclaw-decode.git#d12cbab6a6b883ba34cfa2a71f3f3c41fdd149d9"
   },
   "engines": {
     "node": ">=24.16.0 <25"
