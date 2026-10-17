@@ -2,7 +2,7 @@
   "name": "openclaw-railway",
   "version": "2.0.0",
   "private": true,
-  "description": "OpenClaw on Railway — one-click deploy, powered by @chrysb/alphaclaw",
+  "description": "OpenClaw on Railway \u2014 one-click deploy, powered by @chrysb/alphaclaw",
   "scripts": {
     "dev": "docker compose up --build",
     "dev:stop": "docker compose down",
@@ -11,7 +11,7 @@
     "dev:shell": "docker compose exec openclaw bash"
   },
   "dependencies": {
-    "@chrysb/alphaclaw": "git+https://github.com/HumanDecode/alphaclaw-decode.git#f4177c2137c1767797e7430f152091f42390162e"
+    "@chrysb/alphaclaw": "git+https://github.com/HumanDecode/alphaclaw-decode.git#423dc323d732f0e4fc8cf8fdbab57edd8bd8371f"
   },
   "engines": {
     "node": ">=24.16.0 <25"
