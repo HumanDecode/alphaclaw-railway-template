@@ -1,4 +1,7 @@
-FROM node:24.16.0-slim
+FROM node:24.22.1-slim
+
+# Keep Git prepare/install behavior stable across the Node security update.
+RUN npm install --global npm@11.13.0
 
 RUN apt-get update && apt-get install -y git curl procps python3 make g++ cron tini && rm -rf /var/lib/apt/lists/*
 
